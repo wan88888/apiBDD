@@ -5,6 +5,11 @@ on:
     branches: [ "main" ]
   pull_request:
     branches: [ "main" ]
+
+permissions:
+  contents: read
+  checks: write
+  pull-requests: write
 #  schedule:
 #    - cron: '0 13 * * *'  # 每天21:00执行
 
