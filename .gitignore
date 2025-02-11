@@ -1,0 +1,33 @@
+# IDE files
+.idea/
+*.iml
+
+# Compiled files
+target/
+*.class
+
+# Log files
+*.log
+
+# Package files
+*.jar
+*.war
+*.ear
+
+# Maven
+target/
+maven-status
+maven-archiver
+
+# System files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Test reports
+surefire-reports/
+test-output/
